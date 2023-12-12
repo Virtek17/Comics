@@ -1,0 +1,340 @@
+.comic-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid darkred;
+    font-family: 'Shantell Sans', sans-serif;
+}
+
+.comic__item {
+    width: 50%;
+    height: 300px;
+    border: 3px solid darkred;
+    position: relative;
+}
+
+.comic__img {
+    height: 100%;
+    width: 100%;
+    object-fit:inherit;
+     /* object-fit: cover;  */
+}
+
+.cloud-img {
+    width: 120%;
+}
+
+
+/* ---------------------Диалог 1------------------------ */
+/* Первое облако item1 */
+.comic__item .comic__item1{
+    position: relative;
+}
+.comic__item1 .cloud1 {
+    position: absolute;
+    bottom: 105px;
+    width: 200px;
+    left: 116px;
+}
+.comic__item1 .cloud-img1 {
+    position: absolute;
+    bottom: -7px;
+    left: -58px;
+}
+.comic__item1 .text1 {
+    position: absolute;
+    bottom: 100px;
+    right: 65px;
+    font-size: 10px;
+}
+/* Второе облако item1 */
+.comic__item1 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -33px;
+    bottom: 251px;
+}
+.comic__item1 .cloud-img2 {
+    position: absolute;
+    bottom: -127px;
+    left: -57px;
+}
+.comic__item1 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -2px;
+}
+/* ---------------------Диалог 2------------------------ */
+/* Первое облако item2 */
+.comic__item .comic__item2{
+    position: relative;
+}
+.comic__item2 .cloud1 {
+    position: absolute;
+    bottom: 152px;
+    width: 200px;
+    left: 64px;
+}
+.comic__item2 .cloud-img1 {
+    position: absolute;
+    bottom: -5px;
+    left: -63px;
+}
+
+.comic__item2 .text1 {
+    position: absolute;
+    bottom: 103px;
+    right: 52px;
+    font-size: 10px;
+}
+/* Второе облако item2 */
+.comic__item2 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -35px;
+    bottom: 152px;
+}
+.comic__item2 .cloud-img2 {
+    position: absolute;
+    transform: rotate(10deg);
+    bottom: -137px;
+    left: -76px;
+}
+.comic__item2 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -22px;
+    right: 83px;
+}
+/* ---------------------Диалог 3------------------------ */
+/* Первое облако item3 */
+.comic__item .comic__item3{
+    position: relative;
+}
+.comic__item3 .cloud1 {
+    position: absolute;
+    bottom: 122px;
+    width: 200px;
+    left: 48px;
+}
+.comic__item3 .cloud-img1 {
+    position: absolute;
+    bottom: -5px;
+    left: -63px;
+}
+.comic__item3 .text1 {
+    position: absolute;
+    bottom: 94px;
+    right: 70px;
+    font-size: 10px;
+}
+/* Второе облако item3 */
+.comic__item3 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -60px;
+    bottom: 228px;
+}
+.comic__item3 .cloud-img2 {
+    position: absolute;
+    bottom: -117px;
+    left: -70px;
+}
+.comic__item3 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -22px;
+    right: 83px;
+}
+/* ---------------------Диалог 4------------------------ */
+/* Первое облако item4 */
+.comic__item .comic__item4{
+    position: relative;
+}
+.comic__item4 .cloud1 {
+    position: absolute;
+    bottom: 135px;
+    width: 200px;
+    left: 66px;
+}
+.comic__item4 .cloud-img1 {
+    position: absolute;
+    bottom: -11px;
+    left: -63px;
+}
+.comic__item4 .text1 {
+    position: absolute;
+    bottom: 94px;
+    right: 70px;
+    font-size: 10px;
+}
+/* Второе облако item4 */
+.comic__item4 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -81px;
+    bottom: 245px;
+}
+.comic__item4 .cloud-img2 {
+    position: absolute;
+    bottom: -117px;
+    left: -70px;
+}
+.comic__item4 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -22px;
+    right: 83px;
+}
+/* ---------------------Диалог 5------------------------ */
+/* Первое облако item5 */
+.comic__item .comic__item5{
+    position: relative;
+}
+.comic__item5 .cloud1 {
+    position: absolute;
+    bottom: 135px;
+    width: 200px;
+    left: 191px;
+}
+.comic__item5 .cloud-img1 {
+    position: absolute;
+    bottom: -11px;
+    left: -63px;
+}
+.comic__item5 .text1 {
+    position: absolute;
+    bottom: 94px;
+    right: 70px;
+    font-size: 10px;
+}
+/* Второе облако item5 */
+.comic__item5 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -69px;
+    bottom: 245px;
+}
+.comic__item5 .cloud-img2 {
+    position: absolute;
+    bottom: -122px;
+    left: -70px;
+}
+.comic__item5 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -22px;
+    right: 83px;
+}
+/* ---------------------Диалог 6------------------------ */
+/* Первое облако item6 */
+.comic__item .comic__item6{
+    position: relative;
+}
+.comic__item6 .cloud1 {
+    position: absolute;
+    bottom: 148px;
+    width: 200px;
+    left: 168px;
+}
+.comic__item6 .cloud-img1 {
+    position: absolute;
+    bottom: -13px;
+    left: -63px;
+}
+.comic__item6 .text1 {
+    position: absolute;
+    bottom: 94px;
+    right: 58px;
+    font-size: 10px;
+}
+/* Второе облако item6 */
+.comic__item6 .cloud2 {
+    position: absolute;
+    width: 200px;
+    right: -81px;
+    bottom: 245px;
+}
+.comic__item6 .cloud-img2 {
+    position: absolute;
+    bottom: -117px;
+    left: -70px;
+}
+.comic__item6 .text2 {
+    position: absolute;
+    font-size: 10px;
+    top: -22px;
+    right: 83px;
+}
+
+
+
+/* Первый */
+@media(max-width:1035px) {
+    .comic__item1 .cloud1 {
+        left: 64px;
+    }
+}
+/* Пятый */
+@media(max-width:1090px) {
+    .comic__item5 .cloud1 {
+        left: 153px;
+    }
+}
+@media(max-width:990px) {
+    .comic__item5 .cloud1 {
+        left: 96px;
+    }
+}
+@media(max-width:900px) {
+    .comic__item5 .cloud1 {
+        left: 317px;
+    }
+    .comic__item5 .cloud2 {
+        left: 532px;
+    }
+}
+/* Шестой */
+@media(max-width:1100px) {
+    .comic__item6 .cloud1 {
+        left: 117px;
+    }
+}
+@media(max-width:980px) {
+    .comic__item6 .cloud1 {
+        left: 94px;
+    }
+}
+@media(max-width:900px) {
+    .comic__item6 .cloud1 {
+        left: 240px;
+    }
+}
+@media(max-width:900px) {
+    .comic__item {
+        width: 100%;
+    }
+}
+
+@media(max-width:600px) {
+    .comic__item5 .cloud1 {
+        width: 200px;
+        top: 100px;
+        left: 0;
+
+    }
+
+    .comic__item5 .cloud-img1 {
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+    .comic__item5 .cloud2 {
+        position: absolute;
+        width: 200px;
+        right: 50px;
+        bottom: 50px;
+    }
+
+    .comic__item5 .cloud-img2 {
+        transform: rotate(180deg);
+    }
+}
